@@ -1,50 +1,50 @@
 package sandwich.model;
 
 public class Sandwich implements Cloneable {
-    private Long lettuce;
-    private Long tomato;
-    private Long mustard;
-    private Long sprouts;
+    private Integer lettuce;
+    private Integer tomato;
+    private Integer mustard;
+    private Integer sprouts;
 
     public Sandwich() {
     }
 
-    public Sandwich(Long lettuce, Long tomato, Long mustard, Long sprouts) {
+    public Sandwich(Integer lettuce, Integer tomato, Integer mustard, Integer sprouts) {
         this.lettuce = lettuce;
         this.tomato = tomato;
         this.mustard = mustard;
         this.sprouts = sprouts;
     }
 
-    public Long getLettuce() {
+    public Integer getLettuce() {
         return lettuce;
     }
 
-    public void setLettuce(Long lettuce) {
+    public void setLettuce(Integer lettuce) {
         this.lettuce = lettuce;
     }
 
-    public Long getTomato() {
+    public Integer getTomato() {
         return tomato;
     }
 
-    public void setTomato(Long tomato) {
+    public void setTomato(Integer tomato) {
         this.tomato = tomato;
     }
 
-    public Long getMustard() {
+    public Integer getMustard() {
         return mustard;
     }
 
-    public void setMustard(Long mustard) {
+    public void setMustard(Integer mustard) {
         this.mustard = mustard;
     }
 
-    public Long getSprouts() {
+    public Integer getSprouts() {
         return sprouts;
     }
 
-    public void setSprouts(Long sprouts) {
+    public void setSprouts(Integer sprouts) {
         this.sprouts = sprouts;
     }
 }

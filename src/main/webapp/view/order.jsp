@@ -2,9 +2,9 @@
 <html>
 <body>
 
-<h1>Show Checkboxes</h1>
+<h1>Sandwich Condiments</h1>
 
-<form action="/showList", method="post">
+<form action="/showList" method="post" object="sandwich">
     <table>
         <tr>
             <td>
@@ -36,7 +36,10 @@
             <input type="submit" value="Submit">
         </tr>
     </table>
+    <input type="hidden" name="lettuce" value=0>
+    <input type="hidden" name="tomato" value=0>
+    <input type="hidden" name="mustard" value=0>
+    <input type="hidden" name="sprouts" value=0>
 </form>
-
 </body>
 </html>

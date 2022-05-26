@@ -2,6 +2,8 @@ package sandwich.service;
 
 import sandwich.model.Sandwich;
 
+import java.util.ArrayList;
+
 public interface SandwichService {
-    Sandwich makeSandwich(Long lettuce, Long tomato, Long mustard, Long sprouts);
+    ArrayList<String> getSelectedCondiments(Sandwich sandwich) ;
 }
